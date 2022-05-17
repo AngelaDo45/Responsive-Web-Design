@@ -8,25 +8,20 @@
     <h1 id="title" >Angie's Survey</h1>
     <p id="description">A survey to get to know you better</p>
     <hr class="header"></hr>
-  <form id="survey-form">
+    <form id="survey-form">
 
-    <label id="name-label">
-      Enter your first name: 
-      <input placeholder="John..." type="text" required id="name">
-      </label>
+      <label id="name-label">🌷 Enter your first name: 
+        <input placeholder="John..." type="text" required id="name">
+        </label>
+      <label id="email-label">🌷 Enter your email: 
+        <input placeholder="John.Doe@123.com..." type="email" required id="email" >
+        </label>
+      <label id="number-label">🌷 Enter your age: 
+        <input placeholder="42" type="number" required id="number" max="120" min="13">
+        </label>
+    <hr class="survey-line"></hr>
 
-    <label id="email-label">
-      Enter your email: 
-      <input placeholder="John.Doe@123.com..." type="email" required id="email" >
-      </label>
-
-      <label id="number-label">
-      Enter your age: 
-      <input placeholder="42" type="number" required id="number" max="120" min="13">
-      </label>
-      <hr class="survey-line"></hr>
-
-      <label>What's your favorite mode of transportation?
+      <label>🌼 What's your favorite mode of transportation?
       <select id="dropdown">
           <option value="">Walking</option>
           <option value="1">Driving</option>
@@ -36,25 +31,26 @@
         </select>
       </label>
 
-      <label>What's your favorite season?<br>
+      <label>🌼 What's your favorite season?<br>
       <input type="radio" name="favorite_season" value="winter">Winter</input>
       <input type="radio" name="favorite_season" value="spring">Spring</input>
       <input type="radio" name="favorite_season" value="summer">Summer</input>
       <input type="radio" name="favorite_season" value="fall">Fall</input>
-  </label>
+        </label>
 
-  <label>What toppings do you like on your pizza?<br>
-      <input type="checkbox" name="topping_liked" value="pepperoni">Pepperoni</input>
-      <input type="checkbox" name="topping_liked" value="mushrooms">Mushrooms</input>
-      <input type="checkbox" name="topping_liked" value="pineapple">Pineapple</input>
-      <input type="checkbox" name="topping_liked" value="sausage">Sausage</input>
-  </label>
-  <hr class="survey-line"></hr>
+      <label>🌼 What toppings do you like on your pizza?<br>
+          <input type="checkbox" name="topping_liked" value="pepperoni">Pepperoni</input>
+          <input type="checkbox" name="topping_liked" value="mushrooms">Mushrooms</input>
+          <input type="checkbox" name="topping_liked" value="pineapple">Pineapple</input>
+          <input type="checkbox" name="topping_liked" value="sausage">Sausage</input>
+      </label>
 
-  <label>Write a haiku about your favorite food
-    <br><textarea rows="10"
-  cols="30" placeholder="I love tteopokki. Cheese, Gooey and Spicey. With lots of fish cakes" name="haiku"></textarea>
-  </label>
+      <hr class="survey-line"></hr>
+
+      <label>🌺 Write a haiku about your favorite food
+        <br><textarea rows="10"
+      cols="30" placeholder="I love tteopokki. Cheese, Gooey and Spicey. With lots of fish cakes" name="haiku"></textarea>
+      </label>
 
   <input id="submit" name="submit" type="submit" value="Submit" />
   </form>
