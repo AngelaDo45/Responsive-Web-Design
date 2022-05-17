@@ -7,7 +7,7 @@
   <body>
     <h1 id="title" >Angie's Survey</h1>
     <p id="description">A survey to get to know you better</p>
-    <hr></hr>
+    <hr class="header"></hr>
   <form id="survey-form">
 
     <label id="name-label">
@@ -24,6 +24,7 @@
       Enter your age: 
       <input placeholder="42" type="number" required id="number" max="120" min="13">
       </label>
+      <hr class="survey-line"></hr>
 
       <label>What's your favorite mode of transportation?
       <select id="dropdown">
@@ -48,13 +49,15 @@
       <input type="checkbox" name="topping_liked" value="pineapple">Pineapple</input>
       <input type="checkbox" name="topping_liked" value="sausage">Sausage</input>
   </label>
+  <hr class="survey-line"></hr>
 
   <label>Write a haiku about your favorite food
-    <textarea rows="10"
+    <br><textarea rows="10"
   cols="30" placeholder="I love tteopokki. Cheese, Gooey and Spicey. With lots of fish cakes" name="haiku"></textarea>
   </label>
 
   <input id="submit" name="submit" type="submit" value="Submit" />
   </form>
+  <p>Thank you!<p>
   </body>
 </html>
