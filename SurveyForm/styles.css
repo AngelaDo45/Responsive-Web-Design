@@ -9,7 +9,7 @@ body {
 }
 
 h1, p{
-  color: rgb(200, 00, 125);
+  color: rgb(255, 00, 125);
   text-align: center;
 }
 
@@ -18,9 +18,37 @@ label {
 	margin: 0.5rem 0;
   font-size: 18px;
   font-family: Serif;
+  padding-left: 14%;
 }
 
 .description {
   font-size: 12px;
   font-family: Serif;
+}
+
+.header{
+  width: 75%;
+  background-color:rgb(255, 00, 125);
+  height: 1px;
+  border:rgb(255, 0, 125) 2px solid;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 30%;
+  margin: 1em auto;
+  height: 30px;
+  font-size: 20;
+  background-color: rgb(255, 00, 125);
+  border-color: rgb(255, 00, 155);
+  min-width: 25px;
+  border-radius: 5px;
+  color: pink;
+  font-family: sansif;
+}
+.survey-line{
+  width: 75%;
+  border-radius: 1px;
+  border-top: 1px dashed rgb(255, 00, 125);
 }
