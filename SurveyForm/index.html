@@ -1,14 +1,60 @@
-body {
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  background-color: rgb(200, 100, 200);
-	color: #f5f6f7;
-  font-family: Tahoma;
-	font-size: 16px;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Build a Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title" >Angie's Survey</h1>
+    <p id="description">A survey to get to know you better</p>
+    <hr></hr>
+  <form id="survey-form">
 
-label {
-  display: block;
-	margin: 0.5rem 0;
-}
+    <label id="name-label">
+      Enter your first name: 
+      <input placeholder="John..." type="text" required id="name">
+      </label>
+
+    <label id="email-label">
+      Enter your email: 
+      <input placeholder="John.Doe@123.com..." type="email" required id="email" >
+      </label>
+
+      <label id="number-label">
+      Enter your age: 
+      <input placeholder="42" type="number" required id="number" max="120" min="13">
+      </label>
+
+      <label>What's your favorite mode of transportation?
+      <select id="dropdown">
+          <option value="">Walking</option>
+          <option value="1">Driving</option>
+          <option value="2">Skating</option>
+          <option value="3">Bus</option>
+          <option value="4">Other</option>
+        </select>
+      </label>
+
+      <label>What's your favorite season?<br>
+      <input type="radio" name="favorite_season" value="winter">Winter</input>
+      <input type="radio" name="favorite_season" value="spring">Spring</input>
+      <input type="radio" name="favorite_season" value="summer">Summer</input>
+      <input type="radio" name="favorite_season" value="fall">Fall</input>
+  </label>
+
+  <label>What toppings do you like on your pizza?<br>
+      <input type="checkbox" name="topping_liked" value="pepperoni">Pepperoni</input>
+      <input type="checkbox" name="topping_liked" value="mushrooms">Mushrooms</input>
+      <input type="checkbox" name="topping_liked" value="pineapple">Pineapple</input>
+      <input type="checkbox" name="topping_liked" value="sausage">Sausage</input>
+  </label>
+
+  <label>Write a haiku about your favorite food
+    <textarea rows="10"
+  cols="30" placeholder="I love tteopokki. Cheese, Gooey and Spicey. With lots of fish cakes" name="haiku"></textarea>
+  </label>
+
+  <input id="submit" name="submit" type="submit" value="Submit" />
+  </form>
+  </body>
+</html>
