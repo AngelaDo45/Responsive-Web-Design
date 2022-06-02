@@ -1,0 +1,33 @@
+#image{
+    height: auto;
+    width: 50%;
+    border-radius: 10px;
+    max-width: 100%;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: sienna;
+    background-color: beige;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-left: 15px;
+}
+h1, #description, #img-div{
+    text-align: center;
+    align-content: center;
+}
+p.paragraph {
+    text-indent: 5%;
+}
+a.link{
+    color: sienna;
+}
+a.link:hover{
+    color: rgb(233, 155, 119);
+}
+a.link:active{
+    color: blue;
+}
