@@ -1,1 +1,20 @@
-
+html{
+    background-color: #FFFCE8; 
+    margin: 5%;
+}
+header{
+    color: #0E4749;
+    font-size: larger;
+    font-weight: 100;
+}
+section{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0E4749;
+    
+}
+nav{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+}
