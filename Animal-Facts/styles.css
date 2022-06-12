@@ -1,11 +1,20 @@
 html{
     background-color: #FFFCE8; 
     margin: 5%;
+    
 }
 header{
     color: #0E4749;
     font-size: larger;
     font-weight: 100;
+    background-color: #62A87C;
+    padding: .35em;
+    border-radius: .5em;
+    width: min-content;
+    display: inline;
+    opacity: 80%;
+    box-shadow: 4px 4px .9px #0E4749;
+    
 }
 section{
     font-size: medium;
@@ -17,4 +26,42 @@ nav{
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: green;
+}
+.animal-container{
+    display: flex;
+    border-radius: 10%;
+    margin: auto;
+    padding: 3%;
+    background-color: #ECD583;
+    border-radius: 10%;
+    box-shadow: 7px .9px #E6C960;
+}
+.animal-col{
+    flex: 1;
+    width: 50%;
+    border-radius: 10%;
+    padding: 3%;
+
+}
+.animal-col:nth-child(2){
+    
+    
+}
+.animal-container img{
+    width: 100%;
+    display: flex;
+    border-radius: 25%;
+    margin: 5%;
+}
+ul.animal-facts{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.italics{
+    font-style: italic;
+    font-weight: bold;
+}
+.status{
+    font-weight: bold;
 }
