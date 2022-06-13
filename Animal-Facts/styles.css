@@ -1,7 +1,23 @@
 html{
     background-color: #FFFCE8; 
     margin: 5%;
+    margin-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
+
+    
+}
+h1{
+    font-size: xx-large !important;
+    font-weight: bold;
+    text-align: center;
+    color: #0E4749;
+
+}
+h2{
+    color: #0E4749;
+    text-align: center;
+    font-style: italic;
 }
 header{
     color: #0E4749;
@@ -14,17 +30,17 @@ header{
     display: inline;
     opacity: 80%;
     box-shadow: 4px 4px .9px #0E4749;
+    margin: auto;
+    text-align: center;
     
 }
 section{
     font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #0E4749;
     
 }
 nav{
     font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: green;
 }
 .animal-container{
@@ -43,6 +59,7 @@ nav{
     width: 50%;
     border-radius: 10%;
     padding: 3%;
+    margin: 0;
 
 }
 .animal-col:nth-child(2){
@@ -52,7 +69,7 @@ nav{
 .animal-container img{
     width: 100%;
     display: flex;
-    border-radius: 25%;
+    border-radius: 7%;
     margin: 5%;
     box-shadow: 7px .9px grey;
 }
@@ -70,4 +87,7 @@ ul.animal-facts{
 }
 nav{
     display: block;
+}
+code{
+    font-size: large;
 }
