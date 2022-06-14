@@ -3,7 +3,7 @@ html{
     margin: 5%;
     margin-top: 2%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    margin-left: 10%;
 
     
 }
@@ -12,12 +12,14 @@ h1{
     font-weight: bold;
     text-align: center;
     color: #0E4749;
+    margin-left: 165px;
 
 }
 h2{
     color: #0E4749;
     text-align: center;
     font-style: italic;
+    margin-left: 165px;
 }
 header{
     color: #0E4749;
@@ -73,8 +75,8 @@ nav{
     margin: 5%;
     box-shadow: 7px .9px grey;
 }
-ul.animal-facts{
-    list-style-type: none;
+ul{
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -90,4 +92,66 @@ nav{
 }
 code{
     font-size: large;
+}
+
+#nav-bar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    min-width: 150px;
+    width: 200px;
+    height: 100%;
+    background-color: #FFF5AD;
+    padding-top: 2.5%;
+    margin: auto;
+    text-align: center;
+} 
+p{
+    text-indent: 7%;
+}
+#main-doc{
+    margin-left: 120px;
+}
+.nav-ul{
+    margin-top: 20px;
+}
+.nav-ul li{
+    border-color: #ECD583;
+    border-style: dotted;
+    border-width: 5px;
+    background-color: #FFF5AD;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.nav-ul li:hover{
+    border-color: #ECD583;
+    border-style: dotted;
+    border-width: 5px;
+    background-color: #6EAF86;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    opacity: 80%;
+}
+.nav-ul li:active{
+    border-color: #ECD583;
+    border-style: dotted;
+    border-width: 5px;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    
+}
+.nav-ul li:visited{
+    border-color: #ECD583;
+    border-style: dotted;
+    border-width: 5px;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #002626;
+    
+    
 }
